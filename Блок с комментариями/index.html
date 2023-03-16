@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блок с комментариями</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="header">Comments</h2>
+        <div id="comment-adding">
+            <div>
+                <label class="label" for="comment-name">Name:</label>
+                <input type="text" class="form-control" id="comment-name" placeholder="Your name">
+            </div>
+            <div>
+                <label class="label" for="comment-body">Comment:</label>
+                <input type="text" class="form-control" id="comment-body" placeholder="Your comment">
+            </div>
+            <div>
+                <label class="label" for="comment-date">Date:</label>
+                <input type="date" class="form-control" id="comment-date" placeholder="Your date">
+            </div>
+            <div class="button">
+                <button type="submit" id="comment-add" class="btn" autofocus>Add comment</button>
+            </div>
+            <div class="btn1">
+                <button type="submit" id="remove" class="btn-primary">Remove all comments</button>
+                <div class="btn-picture">
+                    <img src="img/btn2.png" class="btn2">
+                </div>
+            </div>  
+        </div>
+        <div class="like">
+            <div class="like1">
+                <img src="img/like.png" class="like11">
+            </div>
+        </div>
+        <div id="comment-field">
+            <div>
+                <label for="comment-name">Name:</label>
+                <div type="text" class="form2" id="comment-name" placeholder="Your name" required></div>
+            </div>
+            <div>
+                <label for="comment-body">Comment:</label>
+                <div type="text" class="form3" id="comment-body" placeholder="Your comment"></div>
+            </div>
+            <div>
+                <label for="comment-date">Date:</label>
+                <div type="date" class="form1" id="comment-date" placeholder="Your date"></div>
+            </div>  
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

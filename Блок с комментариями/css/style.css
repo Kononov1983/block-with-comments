@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+}
+
+.header {
+    text-align: center;
+    font-size: calc(160 / 2580 * 100vw);
+}
+
+.button {
+    width: calc(2050 / 2580 * 100vw);
+    height: calc(200 / 2580 * 100vw);
+}
+
+.btn {
+    position: absolute;
+    background: blue;
+    color: white;
+    right: calc(150 / 2580 * 100vw);
+    width: calc(500 / 2580 * 100vw);
+    height: calc(150 / 2580 * 100vw);
+    font-size: calc(60 / 2580 * 100vw);
+}
+
+.btn1 {
+    width: calc(2050 / 2580 * 100vw);
+    height: calc(200 / 2580 * 100vw);
+}
+
+.btn-primary {
+    position: absolute;
+    background: rgb(30, 105, 68);
+    color: white;
+    right: calc(150 / 2580 * 100vw);
+    width: calc(500 / 2580 * 100vw);
+    height: calc(150 / 2580 * 100vw);
+    font-size: calc(60 / 2580 * 100vw);
+}
+
+.btn2 {
+    position: absolute;
+    background: rgb(105, 184, 144);
+    right: calc(650 / 2580 * 100vw);
+    width: calc(150 / 2580 * 100vw);
+    height: calc(150 / 2580 * 100vw);
+}
+
+.label {
+    font-size: calc(60 / 2580 * 100vw);
+}
+
+.form-control {
+    width: calc(2440 / 2580 * 100vw);
+    height: calc(140 / 2580 * 100vw);
+    object-fit: cover;
+    margin: 1.5vw;
+    font-size: calc(60 / 2580 * 100vw);
+}
+
+.like {
+    width: calc(2440 / 2580 * 100vw);
+    height: calc(240 / 2580 * 100vw);
+}
+
+.like1 {
+    width: calc(440 / 2580 * 100vw);
+    height: calc(240 / 2580 * 100vw);
+    margin-left: auto;
+}
+
+.like11 {
+    width: calc(440 / 2580 * 100vw);
+    height: calc(240 / 2580 * 100vw);
+    object-fit: cover;
+}
+
+
+.form1 {
+    width: calc(2440 / 2580 * 100vw);
+    height: calc(60 / 2580 * 100vw);
+    background: white;
+    font-size: calc(60 / 2580 * 100vw);
+    margin: 1vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: right;
+}
+
+.form2 {
+    width: calc(2470 / 2580 * 100vw);
+    height: calc(140 / 2580 * 100vw);
+    font-size: calc(100 / 2580 * 100vw);
+    background: rgb(153, 138, 236);
+    margin: 1vw;
+}
+
+.form3 {
+    width: calc(2470 / 2580 * 100vw);
+    height: calc(140 / 2580 * 100vw);
+    font-size: calc(100 / 2580 * 100vw);
+    background: rgb(206, 238, 206);
+    margin: 1vw;
+}
